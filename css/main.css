@@ -1,0 +1,126 @@
+body {
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    font-family: Soleil,Helvetica,Arial,sans-serif;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    /* padding: 120px 0; */
+    
+}
+#main-header .container {
+    height: 130px;
+    align-items: center;
+    display: flex;
+}
+.main-navigation {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 22px;
+    margin-left: 50px;
+}
+.main-navigation ul {
+    font-size: 13px;
+    line-height: 21px;
+}
+.main-navigation li {
+    display: inline-block;
+    margin-left: 28px;
+    padding-bottom: 22px;
+    position: relative;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.utilities-nav {
+    display: inline-block;
+    margin-left: auto;
+}
+.utilities-nav ul {
+    font-size: 13px;
+    line-height: 21px;
+}
+.utilities-nav li {
+    font-size: 14px;
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+    vertical-align: middle;
+}
+#signin {
+    color: #00a82d;
+    text-decoration: none;
+        font-size: 16px;
+
+}
+#button-login {
+    border-radius: 3px;
+    border: 2px solid #00a82d;
+    text-decoration: none;
+    display: inline-block;
+    height: 40px;
+    min-width: 120px;
+    font-size: 14px;
+    line-height: 37px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .5px;
+    color: #00a82d;
+}
+.content.image {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+.content h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 35px;
+    color: white;
+    
+}
+.content h1{
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1220px;
+    color: white;
+    font-size: 56px;
+    line-height: 72px;
+    margin-bottom: 20px;
+}
+.hero {
+    background-image: url(../img/main-green.png);
+    background-color: green;
+    background-repeat: repeat;
+    position: relative;
+    max-width: 100%;
+    box-sizing: border-box;
+    clear: both;
+    margin: 0 auto;
+    padding: 80px 40px;
+}
+
+#button-hero{
+    padding: 18px 32px 17px;
+    letter-spacing: 1.5px;
+    display: inline-block;line-height: normal;
+    text-decoration: none;
+    text-align: center;
+    background-color: #fff;
+    font-size: 16px;
+    min-width: 240px;
+    text-transform: uppercase;
+    color: #00a82d;
+    border: 0;
+    border-radius: 3px;
+}
